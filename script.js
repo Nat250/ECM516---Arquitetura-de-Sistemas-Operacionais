@@ -1,3 +1,98 @@
+
+
+// function eAgora(){
+//      let cont = 1
+//      function f1(){
+//          console.log(cont)
+//      }
+//      cont++
+//      function f2(){
+//          console.log(cont)
+//      }
+//      return {f1, f2}
+// }
+
+let eAgoraResult = eAgora()
+eAgoraResult.f1()
+eAgoraResult.f2()
+
+
+// function  saudacoesFactory (saudacao, nome){
+//      return function (){
+//          console.log(saudacao + ", " + nome)  
+//      }
+// }
+
+// let olaJoao = saudacoesFactory("Olá", "João")
+// let tchauJoao = saudacoesFactory("Tchau", "João")
+
+// olaJoao()
+// tchauJoao()
+
+// function f(){
+//      let nome = 'João'
+//      function g(){
+//          let a
+//          console.log(nome)
+//      }
+//      g()
+// }
+// f()
+
+
+// function f (funcao){
+//      funcao()
+// }
+
+// function g (){
+//      function outraFuncao(){
+//          console.log("Fui criada por g")
+//          return function (){
+//              console.log("Até logo")
+//          }
+//      }
+//      return outraFuncao
+// }
+
+// f(g()())
+
+// f(g)
+
+// f(g())
+
+
+
+
+// f(function(){
+//      console.log("Estou sendo passada para f")
+// })
+
+// const gResult = g()
+// gResult()
+
+// g()()() //undefined()
+//clojures
+// let umaFuncao = function (){
+//      console.log("Fui armazenada em uma variável")
+// }
+// umaFuncao()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //funções
 
 
