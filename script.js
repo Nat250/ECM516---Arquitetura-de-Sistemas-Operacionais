@@ -1,3 +1,83 @@
+//objetos literais Javascript
+//(JSON) Javascript Object Notation
+//calculadora que soma dois valores e subtrair um valor de outro
+let calc = {
+  soma: (a, b) => a + b,
+  subtracao: function(a, b){
+    return a - b
+  }
+}
+
+console.log(calc.soma(2, 3))
+console.log(calc['subtracao'](5, 2))
+
+
+
+//Uma concessionária tem CNPJ e endereço (logradouro e número). Ela possui três veículos no seu estoque. Cada veículo tem modelo, marca e ano de fabricação.
+
+// let concessionaria = {
+//   cnpj: '00011122210001-45',
+//   endereco: {
+//     logradouro: 'Rua B',
+//     numero: 121
+//   },
+//   veiculos: [
+//     {
+//       marca: 'VW',
+//       modelo: 'Fusca',
+//       anoFabricacao: '1970'
+//     },
+//     {
+//       marca: 'Chevrolet',
+//       modelo: 'Corsa',
+//       anoFabricacao: 2005
+//     },
+//     {
+//       marca: 'Ford',
+//       modelo: 'Fiesta',
+//       anoFabricacao: 2015
+//     }
+//   ]
+// }
+
+// for (let veiculo of concessionaria.veiculos){
+//   console.log(veiculo.marca, veiculo['modelo'], veiculo.anoFabricacao)
+// }
+
+//uma pessoa que se chama Maria, tem 21 anos e mora na Rua B, numero 121
+//objeto aninhado
+// let pessoa = {
+//   nome: 'Maria',
+//   idade: 21,
+//   endereco: {
+//     logradouro: 'Rua B',
+//     numero: 121
+//   }
+// }
+
+// console.log(pessoa.endereco.logradouro)
+// console.log(pessoa.endereco['logradouro'])
+// console.log(pessoa['endereco']['numero'])
+// console.log(pessoa['endereco'].numero)
+
+//uma pessoa que se chama João e tem 17 anos
+// let pessoa = {
+//   nome: 'João',
+//   idade: 17
+// }
+// //. e [""]
+// console.log(pessoa.nome)
+// console.log(pessoa["idade"])
+
+// RA do aluno, nome Do aluno
+// 12345, Maria
+// 6555443, Joao
+
+// pessoa["RA do aluno"]
+
+
+
+
 
 
 // function eAgora(){
